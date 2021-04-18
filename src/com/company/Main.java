@@ -148,7 +148,8 @@ public class Main {
                 System.out.println("Employee Id: "+de_info1[i].get_empid());
                 if(diff==false)
                     System.out.println("Employee Name: "+de_info1[i].get_empname()+"\nEmployee DOB: "+de_info1[i].get_empdob());
-                de_info1[i].monthly_salary();
+                else
+                    de_info1[i].monthly_salary();
                 flag=true;
                 break;
             }
@@ -157,7 +158,8 @@ public class Main {
                 System.out.println("Employee Id: "+de_info2[i].get_empid());
                 if(diff==false)
                     System.out.println("Employee Name: "+de_info2[i].get_empname()+"\nEmployee DOB: "+de_info2[i].get_empdob());
-                de_info2[i].monthly_salary();
+                else
+                    de_info2[i].monthly_salary();
                 flag=true;
                 break;
             }
